@@ -1,0 +1,6 @@
+# Project exclude paths
+/.gradle/
+/SwitchPlayer/build/
+/SwitchPlayer/build/classes/java/main/
+/VelocityLib/.gradle/
+/VelocityLib/build/

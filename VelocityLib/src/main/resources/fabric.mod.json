@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "velocitylib",
+  "version": "${version}",
+  "name": "velocitylib",
+  "description": "A lib to teleport player between servers using velocity server as proxy",
+  "authors": [
+    "Skyfy16"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/velocitylib/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ch.skyfy.velocitylib.VelocityLib"
+    ],
+    "client": [
+      "ch.skyfy.velocitylib.client.VelocityLibClient"
+    ],
+    "server": [
+      "ch.skyfy.velocitylib.server.VelocityLibDedicatedServer"
+    ]
+  },
+  "mixins": [
+    "velocitylib.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
