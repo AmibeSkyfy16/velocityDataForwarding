@@ -25,3 +25,5 @@ This root project contains 3 important folders
     3. TestServers
         this folder contains two fabric servers called "server1" and "server2"
         and our velocity proxy server
+
+Another explaination of what im trying to do : https://pastebin.com/8AuCNad9
