@@ -8,5 +8,4 @@ pluginManagement {
 }
 
 rootProject.name = "velocity-data-forwarding"
-//include("switchPlayer", "velocityLib")
 include("VelocityLib", "SwitchPlayer")
